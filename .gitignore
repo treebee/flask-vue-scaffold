@@ -1,0 +1,7 @@
+.eggs
+*.egg-info*
+flask_vue_scaffold/data/pyapp/static/
+*.pyc
+.vscode
+/dist
+/build
