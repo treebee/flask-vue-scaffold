@@ -26,7 +26,6 @@ def setup_package():
         zip_safe=False,
         include_package_data=True,
         install_requires=install_requires,
-        use_scm_version=True,
         entry_points={
             'console_scripts': ['$flask_vue_scaffold_app_name=$flask_vue_scaffold_app_name.cli:main'],
         }

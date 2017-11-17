@@ -36,7 +36,6 @@ Start editing the backend in the `my_awesome_project` directory, frontend in `sr
 Apache License 2.0
 
 ## TODO
-* make code less crappy :D
 * add more tests
 * add example python tests to the created project
 * merge build and config folder (webpack config stuff) into config folder
