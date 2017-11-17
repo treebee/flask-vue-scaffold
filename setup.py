@@ -16,8 +16,7 @@ def setup_package():
             exclude=['tests', 'test', 'test.*', 'docs']
         ),
         classifiers=[
-            'Development Status :: 4 - Beta',
-            'Programming Language :: Python',
+            'License :: OSI Approved :: Apache Software License'
             'Programming Language :: Python :: 3.6'
         ],
         zip_safe=False,
