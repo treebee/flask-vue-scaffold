@@ -9,7 +9,8 @@ install_requires = [
 def setup_package():
     setup(
         name='Flask-Vue-Scaffold',
-        description='Flask Vue Scaffold',
+        description='Create a Flask+Vue.js app in seconds.',
+        long_description=open('README.md').read(),
         author='Patrick Muehlbauer',
         author_email='patrick@opentrash.org',
         url='https://github.com/treebee/flask-vue-scaffold',
