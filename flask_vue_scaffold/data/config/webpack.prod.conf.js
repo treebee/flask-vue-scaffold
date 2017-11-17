@@ -11,7 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
 const env = process.env.NODE_ENV === 'testing'
-  ? require('../config/test.env')
+  ? require('./test.env')
   : config.build.env
 
 const webpackConfig = merge(baseWebpackConfig, {

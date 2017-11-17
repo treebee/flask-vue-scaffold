@@ -5,9 +5,9 @@
   "author": "$flask_vue_scaffold_author",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node config/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
+    "build": "node config/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
