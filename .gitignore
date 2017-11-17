@@ -5,3 +5,4 @@ flask_vue_scaffold/data/pyapp/static/
 .vscode
 /dist
 /build
+__pycache__
