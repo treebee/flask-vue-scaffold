@@ -13,7 +13,6 @@ deactivate
 pushd /tmp/test-project
     virtualenv -p python3.6 /tmp/venv
     . /tmp/venv/bin/activate
-    git init
     pip install -e .
     yarn
     PATH=$PATH:`pwd`/node_modules/.bin yarn test

@@ -11,7 +11,8 @@ install_requires = [
 def setup_package():
     setup(
         name='$flask_vue_scaffold_app_name',
-        description='Flask Vue Scaffold App',
+        version='1.0-dev'
+        description='',
         author='',
         url='',
         packages=find_packages(
@@ -24,7 +25,6 @@ def setup_package():
         ],
         zip_safe=False,
         include_package_data=True,
-        setup_requires=['setuptools_scm'],
         install_requires=install_requires,
         use_scm_version=True,
         entry_points={

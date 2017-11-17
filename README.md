@@ -22,7 +22,6 @@ pip install flask-vue-scaffold
 flask_vue init --name my-awesome-project [--dest /path/to/workspace]
 
 cd /path/to/workspace/my-awesome-project
-git init
 pip install -e .
 yarn
 my_awesome_project devserver
