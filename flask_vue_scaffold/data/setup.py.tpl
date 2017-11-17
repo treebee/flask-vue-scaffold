@@ -11,7 +11,7 @@ install_requires = [
 def setup_package():
     setup(
         name='$flask_vue_scaffold_app_name',
-        version='1.0-dev'
+        version='1.0-dev',
         description='',
         author='',
         url='',
