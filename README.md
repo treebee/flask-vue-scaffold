@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/treebee/flask-vue-scaffold.svg?branch=master)](https://travis-ci.org/treebee/flask-vue-scaffold)
+
 # flask-vue-scaffold
 
 Create a new [Flask](https://github.com/pallets/flask) project with a [Vue.js](https://github.com/vuejs/vue) frontend without pain.
