@@ -10,7 +10,8 @@ def setup_package():
     setup(
         name='Flask-Vue-Scaffold',
         description='Flask Vue Scaffold',
-        author='Patrick Muehlbauer <patrick@opentrash.org>',
+        author='Patrick Muehlbauer',
+        author_email='patrick@opentrash.org',
         url='https://github.com/treebee/flask-vue-scaffold',
         packages=find_packages(
             exclude=['tests', 'test', 'test.*', 'docs']
