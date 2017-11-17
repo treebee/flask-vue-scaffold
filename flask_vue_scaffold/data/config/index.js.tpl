@@ -8,8 +8,8 @@ const path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, '../pyapp/templates/index.html'),
-    assetsRoot: path.resolve(__dirname, '../pyapp'),
+    index: path.resolve(__dirname, '../$flask_vue_scaffold_app_name/templates/index.html'),
+    assetsRoot: path.resolve(__dirname, '../$flask_vue_scaffold_app_name'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     productionSourceMap: true,

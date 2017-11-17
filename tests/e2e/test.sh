@@ -15,6 +15,7 @@ pushd /tmp/test-project
     . /tmp/venv/bin/activate
     pip install -e .
     yarn
+    yarn build
     PATH=$PATH:`pwd`/node_modules/.bin yarn test
 popd
 

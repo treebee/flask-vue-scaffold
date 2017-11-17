@@ -35,6 +35,7 @@ def init(name, dest):
     destination = os.path.abspath(os.path.join(dest, name))
     data_root = pkg_resources.resource_filename('flask_vue_scaffold', 'data')
     os.mkdir(os.path.join(dest, name))
+    os.mkdir(os.path.join(dest, name, 'static'))
     for path, _, files in os.walk(data_root):
         if data_root != path:
             os.mkdir(os.path.join(destination, path.replace(data_root + '/', '')))
